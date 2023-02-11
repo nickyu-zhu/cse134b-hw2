@@ -6,11 +6,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Ningyu Zhu's Personal Website</title>
 	<link rel="stylesheet" href="styles/main.css">
-	<style>
-		button{
-			color: red;
-		}
-	</style>
 	<script type="module">
 		const canvas = document.getElementById('canvas');
 		const ctx = canvas.getContext('2d');
@@ -19,45 +14,51 @@
 	</script>
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg bg-body-tertiary">
-		<div class="container-fluid">
-		  <a class="navbar-brand" href="index.html">Home</a>
-		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		  </button>
-		  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-			<div class="navbar-nav">
-			  <a class="nav-link active" href="About.html">About</a>
-			  <a class="nav-link" href="Projects.html">Projects</a>
-			  <a class="nav-link" href="Resume.html">Resume</a>
+	<section class="flex-container-p">
+		<section class="flex-container">
+			<img src="images/Ningyu.jpg" alt="Ningyu Zhu Bio image" id="img1">
+		</section>
+		<section class="flex-container2">
+			<h1 id="name">Ningyu Zhu</h1>
+			<div>
+				Master Student
+				<br>
+				Computer Science & Engineering Department
+				<br>
+				Jacobs School of Engineering
+				<br>
+				University of California, San Diego
 			</div>
-		  </div>
-		</div>
-	  </nav>
-	<h1>Ningyu Zhu</h1>
-	<img src="images/Ningyu.jpg" alt="Ningyu Zhu Bio image" height="250" width="250">
-	<section>
-		<header>
-			<h2>About Me</h2>
-		</header>
-		<div>
-			Master Student
-			<br>
-			Computer Science & Engineering Department
-			<br>
-			Jacobs School of Engineering
-			<br>
-			University of California, San Diego
-		</div>
+			<section>
+				<a href="https://github.com/nickyu-zhu" target="_blank">
+					<img src="images/github.png" alt="Github">
+				</a>
+				<a href="https://www.linkedin.com/in/ningyu-zhu-567530245/" target="_blank">
+					<img src="images/linkedin.png" alt="Github">
+				</a>
+			</section>
+		</section>
 	</section>
 	
 	<main>
 		<h3>My Skills</h3>
-		<b><em>Programming Language:</em> C/C++, GLSL, Python, Java, JavaScript, HTML5, CSS3</b>
-		<br>
-		<i><em>Frameworks/Libraries:</em> OpenGL(WebGL), Springboot, Django</i>
+		<div class="container"><em>Programming Language:</em> C/C++, GLSL, Python, Java, JavaScript, HTML5, CSS3</div>
+		<div class="container"><em>Frameworks/Libraries:</em> OpenGL(WebGL), Springboot, Django</div>
 	</main>
-	<hr>
+	<div id="head">Notable courses</div>
+	<div class="container">
+		<div class="course">Computer Graphics</div>
+		<div class="course">Computer Graphics II (Rendering)</div>
+		<div class="course">Physical Simulations</div>
+		<div class="course">Advanced Image Synthesis</div>
+		<div class="course">Algorithm Design & Analysis</div>
+		<div class="course">Data Mining & Analytics</div>
+		<div class="course">Web Client Languages</div>
+	</div>
+
+	<img src="/images/stanford Bunny.jfif" alt="stanford Bunny">
+	<div class="circle">animation</div>
+	<div class="rectangle">transition</div>
 	<div style="color:red;">The content down below will be the lab area, which contain the rest of unused tags in the Homework2 requirement</div>
 	<p>Salamanders are a group of amphibians with a lizard-like appearance, 
 		including short legs and a tail in both larval and adult forms.
